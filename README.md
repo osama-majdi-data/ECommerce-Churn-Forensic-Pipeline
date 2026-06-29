@@ -5,7 +5,9 @@ Data Engine: **MySQL Workbench** | ML Core: **Python 3 (LightGBM & XGBoost)** | 
 
 ---
 
-📁 **Dataset Source:** [Kaggle Dataset Repository]((https://www.kaggle.com/datasets/dhairyajeetsingh/ecommerce-customer-behavior-dataset/data)) - Used as the raw transactional baseline to demonstrate upstream SQL sanitization and tree-based model auditing.
+📁 **Dataset Source:** [Kaggle Dataset Repository](https://www.kaggle.com/datasets/dhairyajeetsingh/ecommerce-customer-behavior-dataset) - Used as the raw transactional baseline to demonstrate upstream SQL sanitization and tree-based model auditing.
+
+---
 
 ## 🚨 The Structural Plot Twist (Why a 99% ML Model Is Dangerous)
 
@@ -64,15 +66,18 @@ The data is wrapped into an executive, dark-themed, single-page dashboard to bri
 
 ```text
 📦 ECommerce-Churn-Forensic-Pipeline
+ ├── 📂 00_DataBase/                     
+ │    └── 📄 churn.csv                  <- Raw Dataset File
  ├── 📂 01_SQL_Analytics_Pipeline/       
  │    ├── 📄 01_eda_missing_values.sql       
  │    ├── 📄 02_first_stage_pipeline.sql     
  │    ├── 📄 03_eda_outliers_detection.sql    
- │    ├── 📄 04_second_stage_pipeline.sql    
+ │    ├── 📄 04_second_stage_pipeline.sql     
  │    └── 📄 05_automation_and_views.sql     
  ├── 📂 02_Machine_Learning_Pipeline/    
  │    ├── 📄 06_churn_modeling_pipeline.ipynb 
- │    └── 📄 winning_lightgbm_model.pkl      
+ │    ├── 📄 winning_lightgbm_model.pkl      
+ │    └── 📄 model_feature_columns.pkl      
  ├── 📂 03_PowerBI_Dashboard/            
  │    └── 📄 07_churn_predictive_dashboard.pbix 
  └── 📄 README.md                        
@@ -82,5 +87,8 @@ The data is wrapped into an executive, dark-themed, single-page dashboard to bri
 
 ## 🔮 Future Enhancements & Scalability (Version 2.0 Roadmap)
 To maintain constant repository activity and continuous integration, the pipeline's future roadmap includes:
+*   Migrating static hardcoded clamping thresholds into dynamic `MIN-AVG Subqueries` for full self-evolving orchestration.
+*   Deploying the pipeline model as an optimized microservice for real-time edge streaming.
+the pipeline's future roadmap includes:
 *   Migrating static hardcoded clamping thresholds into dynamic `MIN-AVG Subqueries` for full self-evolving orchestration.
 *   Deploying the pipeline model as an optimized microservice for real-time edge streaming.
