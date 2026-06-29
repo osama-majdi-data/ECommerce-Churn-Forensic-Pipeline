@@ -5,6 +5,8 @@ Data Engine: **MySQL Workbench** | ML Core: **Python 3 (LightGBM & XGBoost)** | 
 
 ---
 
+📂 Dataset Source: Kaggle Dataset Link - Used as the raw transactional baseline to demonstrate upstream SQL sanitization and tree-based model auditing.
+
 ## 🚨 The Structural Plot Twist (Why a 99% ML Model Is Dangerous)
 
 During development, my initial Machine Learning models reached a spectacular **98% accuracy**. To a beginner, this is a milestone. To a professional Data Engineer, this screams **Data Leakage, Overfitting, or Systemic Data Corruption**. 
