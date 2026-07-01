@@ -35,7 +35,7 @@ Rather than relying on default preprocessing techniques or simple average imputa
 # 🏗️ System Architecture & SQL Data Engineering Pipeline
 
 <p align="center">
-<img src="assets/architecture_pipeline.png" width="95%">
+<img src="ECommerce-Churn-Forensic-Pipeline/assets/architecture_pipeline.png" width="95%">
 </p>
 
 <p align="center">
