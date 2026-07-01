@@ -35,7 +35,7 @@ Rather than relying on default preprocessing techniques or simple average imputa
 # 🏗️ System Architecture & SQL Data Engineering Pipeline
 
 <p align="center">
-<img src="assets/architecture_pipeline.png" width="95%">
+<img src="ECommerce-Churn-Forensic-Pipeline/assets/architecture_pipeline.png" width="95%">
 </p>
 
 <p align="center">
@@ -164,8 +164,8 @@ Business objectives should always determine model evaluation—not the other way
 # 📊 Model Evaluation
 
 <p align="center">
-<img src="assets/confusion_matrix.png" width="48%">
-<img src="assets/roc_curve.png" width="48%">
+<img src="ECommerce-Churn-Forensic-Pipeline/assets/confusion_matrix.png" width="48%">
+<img src="ECommerce-Churn-Forensic-Pipeline/assets/roc_curve.png" width="48%">
 </p>
 
 <p align="center">
@@ -203,7 +203,7 @@ This finding is consistent with the superior performance achieved by tree-based 
 # 🌳 Feature Importance
 
 <p align="center">
-<img src="assets/feature_importance.png" width="80%">
+<img src="ECommerce-Churn-Forensic-Pipeline/assets/feature_importance.png" width="80%">
 </p>
 
 <p align="center">
@@ -231,7 +231,7 @@ The dashboard was designed to answer one essential question:
 > **Which customers require immediate attention before they churn?**
 
 <p align="center">
-<img src="assets/dashboard.png" width="100%">
+<img src="ECommerce-Churn-Forensic-Pipeline/assets/dashboard.png" width="100%">
 </p>
 
 <p align="center">
